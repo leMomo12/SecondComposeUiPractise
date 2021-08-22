@@ -1,8 +1,6 @@
 package com.mnowo.secondcomposeuipractise
 
-import android.database.sqlite.SQLiteTransactionListener
 import android.os.Bundle
-import android.os.TransactionTooLargeException
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
@@ -19,10 +17,7 @@ import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material.icons.outlined.Notifications
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.Alignment.Companion.CenterVertically
-import androidx.compose.ui.Alignment.Companion.End
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.focus.focusModifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
